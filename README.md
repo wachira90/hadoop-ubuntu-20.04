@@ -152,7 +152,7 @@ hdfs namenode -format
 2020-11-23 10:31:51,323 INFO namenode.FSImage: FSImageSaver clean checkpoint: txid=0 when meet shutdown.
 2020-11-23 10:31:51,323 INFO namenode.NameNode: SHUTDOWN_MSG:
 /************************************************************
-SHUTDOWN_MSG: Shutting down NameNode at hadoop.tecadmin.net/127.0.1.1
+SHUTDOWN_MSG: Shutting down NameNode at 172.16.1.15/127.0.1.1
 ************************************************************/
 ````
 
