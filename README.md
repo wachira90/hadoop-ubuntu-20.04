@@ -99,7 +99,6 @@ nano $HADOOP_HOME/etc/hadoop/hdfs-site.xml
 
 ````
 <configuration>
- 
         <property>
                 <name>dfs.replication</name>
                 <value>1</value>
@@ -223,6 +222,13 @@ http://172.16.1.15:9870
 http://172.16.1.15:8088
 ````
 
+### datanode
+
+````
+http://172.16.1.15:9864/
+````
+
+
 ## Step 9 - Verify the Hadoop Cluster
 
 ````
@@ -241,23 +247,6 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-23 10:51 /test1
 hdfs dfs -put /var/log/* /logs/
 ````
 
-### hadoop
-
-````
-http://172.16.1.15:8088/cluster
-````
-
-### Overview
-
-````
-http://172.16.1.15:9870/explorer.html
-````
-
-### datanode
-
-````
-http://172.16.1.15:9864/
-````
 
 ## Step 10 - Stop Hadoop Cluster
 
