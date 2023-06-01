@@ -68,6 +68,7 @@ export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
 export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib/native"
 export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.3.4.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.3.4.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-3.3.4.jar:~/MapReduceTutorial/SalesCountry/*:$HADOOP_HOME/lib/*"
 export HADOOP_PID_DIR=/tmp/hdfspid
+export LC_TIME=en_US.UTF-8
 
 source ~/.bashrc 
 ```
